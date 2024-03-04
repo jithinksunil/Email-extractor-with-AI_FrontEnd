@@ -64,7 +64,7 @@ function Profile() {
             <div style={{ padding: '10px' }} className='tile'>
               <div className='flex'>
                 <div style={{ width: '150px' }}>From:</div>
-                <div>{email.from.split('<')[1].split('>')[0]}</div>
+                <div>{email.from}</div>
               </div>
               <div className='flex'>
                 <div style={{ width: '150px' }}>Subject:</div>
